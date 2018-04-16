@@ -1,0 +1,214 @@
+
+  .myImg{
+     display: block;
+     width: 200px;
+     height:auto;
+     padding-bottom: 30px 30px 30px 30px;
+     margin: 1vw auto;
+     background-size: cover;
+     background-repeat: no-repeat;
+     background-position: center center;
+     -webkit-border-radius: 99em;
+     -moz-border-radius: 99em;
+     border-radius: 99em;
+     border: 1px solid #eee;
+     box-shadow: 0 3px 2px rgba(53, 238, 64, 0.9); 
+     margin-bottom: 10vh;
+  }
+
+  .aboutImg{
+    display: block;
+     width: 200px;
+     height:200px;
+     margin: 1vw auto;
+     background-size: cover;
+     background-repeat: no-repeat;
+     background-position: center center;
+     -webkit-border-radius: 99em;
+     -moz-border-radius: 99em;
+     border-radius: 99em;
+     border: 0px solid #eee;
+     box-shadow: 0 3px 2px rgba(53, 238, 64, 0.9); 
+     margin-bottom: 10vh;
+  }
+
+.zoom {
+    padding-bottom: 20px;
+    transition: transform .2s; /* Animation */
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+}
+
+.zoom:hover {
+    transform: scale(1.15); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+.zoom1 {
+  padding: 10px 20px 50px 20px;
+    transition: transform .2s; /* Animation */
+    width: 70px;
+    height: 70px;
+    margin: 0 auto;
+}
+
+.zoom1:hover {
+    transform: scale(1.15); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+
+.line-separator{
+     height: 1px;
+     width : 100%;
+     border-bottom:3px solid #313030;
+     color : rgb(27 , 36 , 47);
+}
+
+ .line-separator1{
+     height:1px;
+     background: black;
+     border-bottom : 3px solid black;
+     color : black;
+
+}
+
+.line-separator2{
+     height:1px;
+     background: white;
+     border-bottom : 3px solid whit1;
+     color : black;
+   }
+
+.img{
+   height : 650px;
+   width : 100%;
+}
+.img1{
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: center;   
+}
+
+.page2{
+  margin-top :0.1%;
+  padding : 5%;
+}
+.page3{
+  background : url("http://i63.tinypic.com/2eq9hqe.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center; 
+  padding :5%;
+  margin-top:0.1%;
+  margin-bottom: 0.1%; 
+}
+#facebook{
+  color : white;
+}
+#codepen{
+  color: white;
+}
+#linkdin{
+  color : white;
+}
+#github{
+  color : white;
+}
+#skills{
+  font-size : 2em;
+  color : black;
+}
+#Education{
+  font-size : 2em;
+  color : black;
+}
+#heading{
+  font-size : 6vh;
+  color : white;
+  padding-top : 20px;
+}
+#field{
+  font-size : 1.2em;
+  color : black;
+}
+#name{
+  color : black;
+  font-size : 1em;
+}
+
+.navfont{
+  color : white;
+  font-size:2rem;
+}
+ .navColor {
+    background-color: transparent;
+}
+ #name{
+  font-size: 7vh;
+  color:white;
+  font-weight: bold;
+  font-family: italic;
+  margin-bottom: 5vh;
+ }
+ #p1{
+  margin-top: 25vh;
+ }
+
+ .btn{
+   margin-bottom: 5vh;
+ }
+
+ .projectImg{
+  width:400px;
+  height:300px;
+  padding :20px 10px 30px 10px;
+ }
+
+ .projectImg1{
+  width:400px;
+  height:300px;
+  padding :20px 25px 30px 25px;
+ }
+  .footer 
+  {
+      padding: 20px 0px 20px 0px;
+      font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+      font-size: 14px;
+      line-height: 1.42857143;
+      color: #fff;
+      background-color: #000000;
+      border-color: #080808;          
+  }
+
+  .s-text7 {
+  font-family: Montserrat-Regular;
+  font-size: 18px;
+  color: #009999;
+  line-height: 1.8;
+  padding-bottom: 12px;
+}
+
+#boxshadow {
+    position: relative;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, .5);
+    padding: 5px;
+    background: rgba(0,153,153,0.3);
+}
+
+#boxshadow img {
+    width: 100%;
+    border: 1px solid #8a4419;
+    border-style: inset;
+}
+
+#boxshadow::after {
+    content: '';
+    position: absolute;
+    z-index: -1; /* hide shadow behind image */
+    box-shadow: 0 15px 20px rgba(0, 0, 0, 0.3);
+    width: 70%;
+    left: 15%; /* one half of the remaining 30% */
+    height: 100px;
+    bottom: 0;
+}
+

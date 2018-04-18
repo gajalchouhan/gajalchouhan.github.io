@@ -1,19 +1,19 @@
 
   .myImg{
-     display: block;
-     width: 200px;
-     height:auto;
-     padding-bottom: 30px 30px 30px 30px;
-     margin: 1vw auto;
-     background-size: cover;
-     background-repeat: no-repeat;
-     background-position: center center;
-     -webkit-border-radius: 99em;
-     -moz-border-radius: 99em;
-     border-radius: 99em;
-     border: 1px solid #eee;
-     box-shadow: 0 3px 2px rgba(53, 238, 64, 0.9); 
-     margin-bottom: 10vh;
+    display: block;
+    width: 200px;
+    height:auto;
+    padding-bottom: 30px 30px 30px 30px;
+    margin: 1vw auto;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    -webkit-border-radius: 99em;
+    -moz-border-radius: 99em;
+    border-radius: 99em;
+    border: 1px normal #eee;
+    box-shadow: 0 3px 2px rgba(0, 0, 0, 0.9);
+    margin-bottom: 10vh;
   }
 
   .aboutImg{
@@ -27,7 +27,7 @@
      -webkit-border-radius: 99em;
      -moz-border-radius: 99em;
      border-radius: 99em;
-     border: 0px solid #eee;
+     border: 1px normal #eee;
      box-shadow: 0 3px 2px rgba(0, 0, 0, 0.9); 
      margin-bottom: 10vh;
   }
@@ -66,18 +66,11 @@
 
  .line-separator1{
      height:1px;
-     background: black;
-     border-bottom : 3px solid black;
-     color : black;
+     background:#008989;
+     border-bottom : 3px normal #008989;
+     color : #008989;
 
 }
-
-.line-separator2{
-     height:1px;
-     background: white;
-     border-bottom : 3px solid whit1;
-     color : black;
-   }
 
 .img{
    height : 650px;
@@ -124,8 +117,9 @@
 }
 #heading{
   font-size : 6vh;
-  color : white;
+  color : #008989;
   padding-top : 20px;
+  font-family: oblique;
 }
 #field{
   font-size : 1.2em;
@@ -139,6 +133,7 @@
 .navfont{
   color : white;
   font-size:2rem;
+  font-family : oblique;
 }
  .navColor {
     background-color: transparent;
@@ -146,16 +141,12 @@
  #name{
   font-size: 7vh;
   color:white;
-  font-weight: bold;
-  font-family: italic;
+  font-weight: normal;
+  font-family: oblique;
   margin-bottom: 5vh;
  }
  #p1{
   margin-top: 25vh;
- }
-
- .btn{
-   margin-bottom: 5vh;
  }
 
  .projectImg{
@@ -185,14 +176,14 @@
 
 #boxshadow {
     position: relative;
-    box-shadow: 0px 2px 4px rgba(0, 0, 0, .5);
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, .2);
     padding: 5px;
-    background: rgba(0,153,153,0.3);
+    background: rgba(0,0,0,0.3);
 }
 
 #boxshadow img {
     width: 100%;
-    border: 1px solid #8a4419;
+    border: 1px normal black;
     border-style: inset;
 }
 
@@ -200,10 +191,15 @@
     content: '';
     position: absolute;
     z-index: -1; /* hide shadow behind image */
-    box-shadow: 0 15px 20px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 15px 20px rgba(0, 0, 0, 0.2);
     width: 70%;
     left: 15%; /* one half of the remaining 30% */
     height: 100px;
     bottom: 0;
+}
+
+.btnResponsive{ 
+  margin-top : 3vh;
+  margin-bottom: 5vh;
 }
 
